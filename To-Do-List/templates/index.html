@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   </head>
+  
+
+    <body>
+        {% extends "base.html" %}
+        {% block title %}Home Page{% endblock %}
+        {% block content %}
+        {%autoescape false%}
+        {{content}}
+
+        {%endautoescape%}
+        {% endblock %}
+    </body>
+
+</html>
